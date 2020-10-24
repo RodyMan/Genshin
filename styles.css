@@ -13,7 +13,7 @@ html{
 }
 h4{
 	color: white;	
-	margin-left: -25px;
+	margin-left: -2.5rem;
 	font-weight: bold;
 	font-size: 2rem;
 	white-space: nowrap;
@@ -64,12 +64,12 @@ input[type="password"]:hover, input[type="text"]:hover{
 	
 	border: 1px solid #AE3B26;
 	background-color: black;
-	padding: 22px 100px;
+	padding: 2.2rem 10rem;
 	position: absolute;
 	top: 50%;
 	left:50%;
 	transform: translate(-50%,-50%);
-	border-radius: 25px;
+	border-radius: 2.5rem;
 	box-sizing: border-box;
 	width: 40rem;
 	height: 40rem;
@@ -88,9 +88,9 @@ input[type="password"]:hover, input[type="text"]:hover{
 }
 input[type="submit"]{
 
-	margin-left: -15px;
+	margin-left: -1.5rem;
 	padding:1rem 5rem;
-	border-radius: 0px;
+	border-radius: 0rem;
 	font-size: medium;
 	background-color: white;
 	color:black;
@@ -100,7 +100,7 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
 	cursor: pointer;
-	border-radius: 25px;
+	border-radius: 2.5rem;
 	background-color: red;
 	color:white;
 	outline: none;
