@@ -5,6 +5,7 @@ body{
 	background-attachment: fixed;
 	background-image: url(Genshin.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 html{
 	font-size: 10px;
