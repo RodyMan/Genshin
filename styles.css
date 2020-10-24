@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(Genshin.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+html{
+	font-size: 10px;
+}
+h4{
+	color: white;	
+	margin-left: -25px;
+	font-weight: bold;
+	font-size: 2rem;
+	white-space: nowrap;
+	text-shadow: 0px 2px red;
+}
+h4:hover{
+	cursor: context-menu;
+}
+h6{
+	color: #787878;
+	padding: 5px;
+	font-size: xx-small;
+	white-space: nowrap;
+	text-align: center;
+	margin-left: -25px;
+	font-size: -2rem;
+}
+h6:hover{
+	cursor: context-menu;
+}
+p{
+	color: white;
+	font-size: 1.70rem;
+	font-family: monospace;
+}
+p:hover{
+	cursor: context-menu;
+}
+input[type="password"], input[type="text"]{
+
+	padding: 3%;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	transition: border 0.3s ease-in-out;
+}
+input[type="password"]:hover, input[type="text"]:hover{
+	border-left: 5px solid red;
+	border-top: 1px solid red;
+	border-right: 5px solid red;
+	border-bottom: 1px solid red;
+}
+.loginbox{
+	
+	border: 1px solid #AE3B26;
+	background-color: black;
+	padding: 22px 100px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border-radius: 25px;
+	box-sizing: border-box;
+	width: 40rem;
+	height: 40rem;
+	animation: transitionlogin 0.65s;
+}
+@keyframes transitionlogin{
+	from{
+		opacity: 0;
+		padding: 0px;
+		width: 15%;
+		height: 25%;
+	}
+	to{
+		opacity: 1;
+	}
+}
+input[type="submit"]{
+
+	margin-left: -15px;
+	padding:1rem 5rem;
+	border-radius: 0px;
+	font-size: medium;
+	background-color: white;
+	color:black;
+	outline:none;
+	border-color: none;
+	transition: background-color 0.75s, color 0.75s, border-radius 0.3s ease-in-out;
+}
+input[type="submit"]:hover{
+	cursor: pointer;
+	border-radius: 25px;
+	background-color: red;
+	color:white;
+	outline: none;
+	border-color: white;
+}
