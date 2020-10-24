@@ -8,7 +8,6 @@
 body{
 	background-image: url(Genshin.jpg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 html{
 	font-size: 10px;
