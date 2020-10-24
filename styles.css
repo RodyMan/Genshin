@@ -4,6 +4,7 @@ body{
     height: 500px;
     background-size: cover;
     background-position: center top;
+    overflow: hidden;
 }
 html{
 	font-size: 10px;
