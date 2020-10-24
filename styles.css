@@ -4,10 +4,10 @@
 	background-size: 100%;
 	background-attachment: fixed;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 body{
 	background-image: url(Genshin.jpg);
-	background-repeat: no-repeat;
 }
 html{
 	font-size: 10px;
