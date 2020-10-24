@@ -1,6 +1,7 @@
 body{
     background-image: url(Genshin.jpg);
     background-size:cover;
+    background-attachment:fixed;
 }
 html{
 	font-size: 10px;
