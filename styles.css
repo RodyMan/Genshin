@@ -1,12 +1,10 @@
-*{
-	margin: none;
-	padding: none;
+body{
+	margin: 0rem;
+	padding: 0rem;
+	background-image: url(Genshin.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-body{
-	background-image: url(Genshin.jpg);
 }
 html{
 	font-size: 10px;
