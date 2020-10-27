@@ -5,18 +5,19 @@
 		<link rel="icon" href="logo.png">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" src="login.js"></script>
 </head>
 <body>
 	<div class="loginbox">
 	<center><h4>Genshin Impact Wikipedia</h4></center>
 		
-		<form action="nothing.html">
+		<form name="form" action="home.html">
 			<p> Username </p>
-			<input  id = "user" type="text" name="user" placeholder="Enter Username" autocomplete="off" required>
+			<input id = "user" type="text" name="user" placeholder="Enter Username" autocomplete="off" required>
 			
 			<p> Password </p>
-			<input id="pass" type="password" name="pass" placeholder="Enter Password" required><br></br>
-			<center><input type="submit" name="button" value="Sign in"></a></center>
+			<input id="pass" type="password" name="pass" placeholder="Enter Password" required><br><br>
+			<center><input type="button" onclick="check(this.form)" name="button" value="Sign in"></a></center>
 			
 			<h6><i> Copyright © QRM Company Group, all rights reservered. </i></h6>
 		</form>
